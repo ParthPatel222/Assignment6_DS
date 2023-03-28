@@ -158,6 +158,34 @@ public class MyTestBST {
 					System.out.println("Testing method Check if Empty Tree (Option 6)\n");
 					System.out.print("Is empty tree? " + tree.isEmpty());
 					break;
+				case 7: if (tree == null) {
+						System.out.println("Please create a tree first by entering option 0\n");
+						break;
+					}
+					System.out.println("Testing method Inorder Traversal (Option 7)\n");
+					System.out.print("Inorder: ");
+					tree.inorder();
+					break;
+				case 8: if (tree == null) {
+						System.out.println("Please create a tree first by entering option 0\n");
+						break;
+					}
+					System.out.println("Testing method Postorder Traversal (Option 8)\n");
+					System.out.print("Postorder: ");
+					tree.postorder();
+					break;
+				case 9: if (tree == null) {
+						System.out.println("Please create a tree first by entering option 0\n");
+						break;
+					}
+					System.out.println("Testing method Preorder Traversal (Option 9)\n");
+					System.out.print("Preorder: ");
+					tree.preorder();
+					break;
+				case 10: System.out.println("Exiting Program");
+					break;
+				default: System.out.println("Invalid Option");
+					break;
 			}
 
 		} while (choice != 10);
