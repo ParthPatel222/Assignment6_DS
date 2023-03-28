@@ -24,8 +24,7 @@ public class TestBST {
       System.out.print("\nThe number of nodes is " + tree.getSize());
    
       // Search for an element
-      System.out.print("\nIs Peter in the tree? " + 
-         tree.search("Peter"));
+      System.out.print("\nIs Peter in the tree? " + tree.search("Peter"));
    
       // Get a path from the root to Peter
       System.out.print("\nA path from the root to Peter is: ");
